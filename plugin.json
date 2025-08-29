@@ -1,16 +1,15 @@
 {
   "$schema": "./node_modules/midi-mixer-plugin/plugin.schema.json",
-  "id": "com.midi-mixer.template",
-  "name": "Template Plugin",
+  "id": "com.jules.clock",
+  "name": "Clock and Calendar",
   "type": "node",
-  "version": "1.0.2",
-  "author": "MIDI Mixer",
+  "version": "1.0.0",
+  "author": "Jules",
   "main": "lib/main.js",
   "settings": {
-    "text": {
-      "label": "A text field",
-      "type": "text",
-      "required": false
+    "clock": {
+      "label": "Clock and Calendar",
+      "type": "status"
     }
   }
 }
