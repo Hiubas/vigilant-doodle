@@ -1,14 +1,14 @@
 {
-  "name": "com.midi-mixer.template",
-  "version": "1.0.2",
-  "description": "A template plugin for MIDI Mixer that demonstrates how to interact with MIDI Mixer's API.",
+  "name": "com.jules.clock",
+  "version": "1.0.0",
+  "description": "A clock and calendar plugin for MIDI Mixer.",
   "main": "lib/main.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "node_modules/typescript/bin/tsc --listEmittedFiles",
     "build:watch": "tsc --watch",
     "dist": "midi-mixer pack"
   },
@@ -16,10 +16,11 @@
     "midi-mixer",
     "midi",
     "mixer",
-    "template",
-    "plugin"
+    "plugin",
+    "clock",
+    "calendar"
   ],
-  "author": "Jack Williams <@jpwilliams>",
+  "author": "Jules",
   "license": "ISC",
   "dependencies": {
     "midi-mixer-plugin": "^1.0.2"
